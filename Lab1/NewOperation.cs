@@ -25,7 +25,7 @@ namespace Lab1
             doc = new Doctor(DoctorTB.Text);
             op = new Operation(OperationTB.Text, doc.DName, pat.PName);
             op.LOperation.Add(op);
-            this.Close();
+            his.Close();
 
         }
     }
