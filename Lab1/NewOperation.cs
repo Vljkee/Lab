@@ -19,7 +19,7 @@ namespace Lab1
         Operation op;
         Doctor doc;
         Patient pat;
-        private void CreateBtn_Click(object sender, EventArgs e)
+        private void createbtn_Click(object sender, EventArgs e)
         {
             pat = new Patient(PatientTB.Text);
             doc = new Doctor(DoctorTB.Text);
