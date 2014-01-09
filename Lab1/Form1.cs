@@ -17,11 +17,11 @@ namespace Lab1
             InitializeComponent();
         }
 
-        private void NewOperationBtn_Click(object sender, EventArgs e)
+        /*private void NewOperationBtn_Click(object sender, EventArgs e)
         {
             NewOperation NewOp = new NewOperation();
             NewOp.ShowDialog();
-        }
+        }*/
 
         private void ShowOperationBtn_Click(object sender, EventArgs e)
         {
