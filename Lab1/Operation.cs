@@ -13,7 +13,7 @@ namespace Lab1
         {
             get
             {
-                return _loperation;
+                return _1operation;
             }
         }
         private string _name;
@@ -33,7 +33,7 @@ namespace Lab1
         
         public void GetInfo()
         {
-            MessageBox.Show("Доктор: " + _doctor + "\nПациент: " + _patient + "\nОперация: " +
+            MessageBox.Show("Доктор: " + _boctor + "\nПациент: " + _patient + "\nОперация: " +
                 _name);
         }
         public static void GetInfoAll()
